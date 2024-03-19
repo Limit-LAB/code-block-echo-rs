@@ -1,0 +1,11 @@
+[package]
+name = "code-block-echo-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.81"
+tokio = { version = "1.36.0", features = ["macros", "rt-multi-thread"] }
+# limithub-code-block-sdk = { git = "https://github.com/limit-lab/limithub-code-block-sdk-rs.git" }
+
+limithub-code-block-sdk = { path = "../limithub-code-block-sdk-rs" }
