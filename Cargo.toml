@@ -8,4 +8,4 @@ anyhow = "1.0.81"
 tokio = { version = "1.36.0", features = ["macros", "rt-multi-thread"] }
 # limithub-code-block-sdk = { git = "https://github.com/limit-lab/limithub-code-block-sdk-rs.git" }
 
-limithub-code-block-sdk = { path = "../limithub-code-block-sdk-rs" }
+limithub-code-block-sdk = "0.1"
